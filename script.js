@@ -10,9 +10,10 @@ funcion
 */ 
 console.log("La suma es:"+resultado);/*finalmente lo muestro en consola el 
 resultado de la funcion suma entre los dos numeros*/
+// ----- FASE 2 -----
 let numero1 = "10";
 let numero2 = "20";
-console.log(suma(numero1, numero2));
+console.log("La suma con strings fue: " + suma(numero1, numero2));
 
 /*Ahora creo la funcion multiplicacion*/
 function multiplicacion(a,b){
@@ -25,7 +26,7 @@ console.log("la multiplicacion es: "+resultado);/*Ahora muestro resultado*/
 /*Ahora creo la funcion de dividir*/
 numero1 = "15";
 numero2 = "2";
-console.log(multiplicacion(numero1, numero2));
+console.log("La multiplicacion con strings fue: " + multiplicacion(numero1, numero2));
 
 function dividir(a,b){
  return parseFloat(a) / parseFloat(b); /*Aqui se hara la division de los dos valores adentro de la
@@ -36,7 +37,7 @@ la funcion que esta en resultado*/
 console.log("la division es:"+resultado);/*Ahora se muestra el resultado*/
 numero1 = "10";
 numero2 = "20";
-console.log(dividir(numero1, numero2));
+console.log("La division con strings fue: " + dividir(numero1, numero2));
 
 /*Por ultimo Ahora la funcion de restar la creo*/
 function resta(a,b){
@@ -48,7 +49,8 @@ funcion adentro de la variable*/
 console.log("La resta es:"+resultado);
 numero1 = "10";
 numero2 = "2";
-console.log(resta(numero1, numero2));
+console.log("La resta con strings fue: " + resta(numero1, numero2));
+
 
 
 
